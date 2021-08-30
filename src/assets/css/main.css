@@ -1,0 +1,36 @@
+.style-chooser1 .vs__search::placeholder,
+.style-chooser1 .vs__dropdown-toggle,
+.style-chooser1 .vs__dropdown-menu {
+ text-align: right;
+ direction: rtl;
+ font-size: 13px;
+ padding: 5px;
+}
+.style-chooser1 .vs__search::placeholder{
+    color: gray;
+}
+.style-chooser1 .vs__clear{
+    display: none;
+}
+.style-chooser2 .vs__search::placeholder,
+.style-chooser2 .vs__dropdown-toggle,
+.style-chooser2 .vs__dropdown-menu {
+ text-align: right;
+ direction: rtl;
+ font-size: 13px;
+ padding: 5px;
+}
+.style-chooser2 .vs__search::placeholder{
+    color: gray;
+}
+.style-chooser2 .vs__clear{
+    display: none;
+}
+.my-date .form-control{
+    /* text-align: right; */
+    direction: ltr !important;
+}
+.my-date .form-control::placeholder{
+ text-align: right;
+ font-size: 14px;
+}
